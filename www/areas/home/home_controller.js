@@ -53,6 +53,17 @@ angular.module('home.controller', ['home.service'])
         // 改变自动更新
         observer:true,
         observeParents:true
+
+
+        //paginationClickable: true,
+        //autoplay: 2000,
+        //autoplayDisableOnInteraction: false,
+        //loop: true,
+        //// 如果需要分页器
+        //pagination: '.swiper-pagination',
+        //// 改变自动更新
+        //observer:true,
+        //observeParents:true
       });
     }
 
